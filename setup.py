@@ -13,15 +13,15 @@ with open('enumchoicefield/version.py') as v:
 
 
 setup(
-    name='django-enumchoicefield',
+    name='django-enumchoicefield-fork',
     version=version,
     description='A choice field for Django using native Python Enums',
     long_description=readme,
     author='Tim Heap',
     author_email='tim@timheap.me',
-    url='https://github.com/timheap/django-enumchoicefield',
+    url='https://github.com/eivind-kopperud/django-enumchoicefield-fork',
 
-    install_requires=['Django>=2.0'],
+    install_requires=['Django>=4.0'],
     zip_safe=False,
     license='BSD License',
 
@@ -35,11 +35,10 @@ setup(
         'Intended Audience :: Developers',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
         'Framework :: Django',
         'License :: OSI Approved :: BSD License',
     ],

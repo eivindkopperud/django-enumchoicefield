@@ -1,16 +1,18 @@
-======================
-Django EnumChoiceField
-======================
+=================================
+Django EnumChoiceField - The fork
+=================================
 
-.. image:: https://travis-ci.org/timheap/django-enumchoicefield.svg?branch=master
-    :target: https://travis-ci.org/timheap/django-enumchoicefield
-.. image:: https://readthedocs.org/projects/django-enumchoicefield/badge/?version=latest
-    :target: https://django-enumchoicefield.readthedocs.io/en/latest/
-.. image:: https://badge.fury.io/py/django-enumchoicefield.svg
-    :target: https://pypi.org/project/django-enumchoicefield/
 
 A Django model field for native Python Enums.
 
+Warning
+=======
+TL;DR - Think twice before using this package.
+This is an ad hoc fork of the unmaintained `Django EnumChoiceField <https://pypi.org/project/django-enumchoicefield/>`_ that can be used by projects that are dependant on the said package.
+For new projects (or projects that look for a better way to handle enums) you are strongly_ advised to check out the maintained `Django EnumFields <https://pypi.org/project/django-enumfields/>`_.
+
+A quick how-to
+==============
 .. code:: python
 
     from enumchoicefield import ChoiceEnum, EnumChoiceField
